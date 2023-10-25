@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  
+header {
+    width: 100%;
+    height: 200px;
+    display: column;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    line-height: 35pt;
+    background-color: rgb(36, 25, 87);
+    font-size: 40pt;
+    color: rgb(245, 245, 245);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    height: 120px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 18pt;
+    color: rgb(245, 245, 245);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(245, 245, 245);
+}
+
+a:visited {
+    color: rgb(174, 177, 248);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(127, 129, 180);
+}
+
+.container { 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 190px;
+    line-height: 30pt;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    background-color: rgb(62, 44, 143);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+#links #icon {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    height: 18pt;
+}
