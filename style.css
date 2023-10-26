@@ -29,7 +29,7 @@ header {
     padding-top: 10px;
 }
 
-ul {
+#links {
     list-style: none;
     font-size: 18pt;
     color: rgb(245, 245, 245);
@@ -79,11 +79,13 @@ a:active {
 /* dados da loja */
 
 .info {
+    width: 100%;
     position: absolute;
     text-align: center;
     margin-top: 341px;
 }
 
 hr {
-    border-width: 100%;
+    margin: auto;
+    background-color: rgb(127, 129, 180);
 }
