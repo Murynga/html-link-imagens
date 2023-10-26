@@ -35,6 +35,10 @@ header {
     color: rgb(245, 245, 245);
 }
 
+ul {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -78,14 +82,18 @@ a:active {
 
 /* dados da loja */
 
-.info {
+.info-loja {
     width: 100%;
     position: absolute;
-    text-align: center;
+    text-align: justify;
     margin-top: 341px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 20pt;
 }
 
 hr {
-    margin: auto;
+    margin-top: 6pt;
+    margin-bottom: 6pt;
     background-color: rgb(127, 129, 180);
 }
