@@ -112,7 +112,18 @@ hr {
 
 .container-imagens-texto {
     position: absolute;
-    top: 140px;
+    top: 70px;
     left: 430px;
-    font-size: 15pt;
+    font-size: 18pt;
+    line-height: 30pt;
+}
+
+/* Imagens do site de basquete */
+
+.imagens-menu-alt {
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    width: 570px;
+    height: 400px;
+    margin-right: 20px;
 }
