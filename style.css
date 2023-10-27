@@ -31,12 +31,9 @@ header {
 
 #links {
     list-style: none;
+    list-style-type: none;
     font-size: 18pt;
     color: rgb(245, 245, 245);
-}
-
-ul {
-    list-style-type: none;
 }
 
 a {
@@ -96,4 +93,26 @@ hr {
     margin-top: 6pt;
     margin-bottom: 6pt;
     background-color: rgb(127, 129, 180);
+}
+
+/* Imagens do index principal */
+
+.imagens-menu {
+    border: 2px solid rgb(56, 56, 56);
+    margin-top: 6pt;
+    margin-bottom: 18pt;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.container-imagens {
+    position: relative;
+}
+
+.container-imagens-texto {
+    position: absolute;
+    top: 150px;
+    left: 430px;
+    font-size: 15pt;
 }
