@@ -1,3 +1,5 @@
+/* Modificações gerais na estrutura */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 }
   
 /* Cabeçalho */
+
 header {
     width: 100%;
     height: 200px;
@@ -21,6 +24,7 @@ header {
 }
 
 /* Itens da lista */
+
 #logo {
     max-width: 100%;
     height: auto;
@@ -41,11 +45,11 @@ a {
 }
 
 a:link {
-    color: rgb(245, 245, 245);
+    color: rgb(136, 86, 202);
 }
 
 a:visited {
-    color: rgb(174, 177, 248);
+    color: rgb(146, 147, 228);
 }
 
 a:hover {
@@ -92,7 +96,6 @@ a:active {
 hr {
     margin-top: 6pt;
     margin-bottom: 6pt;
-    background-color: rgb(127, 129, 180);
 }
 
 /* Imagens do index principal */
